@@ -2292,6 +2292,7 @@ input, select, textarea {
 	input[type="email"],
 	select {
 		height: 3em;
+		width: 25em;
 	}
 
 	textarea {
