@@ -59,11 +59,16 @@
 									<option value="femenino">Femenino</option>
 								</select>
 								<br />
-								Fecha: <input type="date" name="date_req" />
+								Fecha de nacimiento: <input type="date" name="date_req" required/>
 								<br />
 								Email: <input type="email" name="email_req" value="ejemplo@mail.algo" autocomplete="off" required />
 								<br />
-
+								Contraseña*: <input type="password" name="pass_req" autocomplete="off" required pattern=".{8,}" />
+								<sub>Mínimo 8 caracteres.</sub>
+								<br />
+								<input type="checkbox" id="c1" name="check_req" value="Acepto" required  />
+								<label for="c1">Acepto la cesión de mis datos según LOPD 15/1999</label>
+								<br />
 								</p>
 							</form>
 						</section>		
