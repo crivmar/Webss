@@ -45,13 +45,22 @@
 
 						<!-- Formulario -->
 					<div>
-						<form action="http://www2.gonzalonazareno.org/josedom/resultado.php" method="post">
-							<p>
-							Nombre: <input type="text" name="name_req" autofocus required />
-							<br />
-							Apellidos: <input type="text" name="surnames_req" autofocus required />
-							</p>
-						</form>		
+						<section>
+							<h2>Registro</h2>
+							<form action="http://www2.gonzalonazareno.org/josedom/resultado.php" method="post">
+								<p>
+								Nombre: <input type="text" size="15" name="name_req" value="Nombre" autofocus required />
+								<br />
+								Apellidos: <input type="text" name="surnames_req" value="Apellidos" required />
+								<br />
+								Sexo:
+								<select id="Sexo">
+									<option value="masculino">Masculino</option>
+									<option value="femenino">Femenino</option>
+								</select>
+								</p>
+							</form>
+						</section>		
 					</div>
 
 
