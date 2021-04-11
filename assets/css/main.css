@@ -2242,6 +2242,12 @@ input, select, textarea {
 		width: 100%;
 	}
 
+	input[type="date"],
+	textarea {
+		background-color: transparent;
+		color:inherit
+	}
+
 		input[type="text"]:invalid,
 		input[type="password"]:invalid,
 		input[type="email"]:invalid,
